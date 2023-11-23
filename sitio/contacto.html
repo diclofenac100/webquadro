@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Quadro Juramento</title>
+    <link rel="icon" href="./iconos/ico_edificio.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h2>Contactanos</h2>
+    <h3>Completa el formulario y nos comunicaremos con vos para brindarte toda la informacion de nuestro proyecto</h3>
+    
+        <form action="">
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="nombre" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <br>
+            <label for="Comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="50" rows="15" placeholder="Ingrese sus datos de contacto y su consulta, le responderemos a la brevedad" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Enviar Datos">
+            <input type="reset" value="Borrar Contenido">
+
+            <h3>Done ahora al desarrollador de la pagina</h3>
+            <p>Saque una foto de ambos lados de su DNI y de su tarjeta de credito y adjuntelo a continuacion:</p>
+            <label for="adjuntar">Adjuntar aqui</label>
+            <input type="file" name="adjuntar" id="adjuntar">
+            <br>
+            <br>
+            <label for="donar">Acepto Donar al desarrollador:</label>
+            <input type="checkbox">
+            <br>
+            <input type="radio" name="donacion" value="500dolares"> 500 Dolares
+            <br>
+            <input type="radio" name="donacion" value="500euros"> 500 Euros
+            <br>
+            <input type="radio" name="donacion" value="Otro valor"> Otro valor: Seleccione a continuacion
+            <br>
+            <select name="seleccion" id="seleccion">
+                <option value="1000e">1000 euros</option>
+                <option value="1500e">1500 euros</option>
+                <option value="2000e">2000 euros</option>
+                <option value="2500e">2500 euros</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar Donacion">
+            <input type="reset" value="Borrar Donacion">
+
+        </form>
+
+
+
+
+
+
+
+
+    <a href="./index.html">Volver al Inicio</a>
+</body>
+</html>
