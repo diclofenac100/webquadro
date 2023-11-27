@@ -9,31 +9,51 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/estilos.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-     <section id="titulo">
+     <section id="titulo" class="tituloCabecera">
         <h1>Quadro Juramento</h1>
         <h2>Mudate a la vida que querés</h2>
+
      </section>
+     <section id="imagenesportada" class="imagenesprincipal">    
+        <img src="./img/render_aerea.jpg" alt="Imagen Render Aerea Edificio" id="imgprincipal">
+    </section>
 
-     <section id="contIndex">    
-        <img src="./img/render_aerea.jpg" alt="" id="imgprincipal">
-
+    <section id="textoportada" class="textoPortada">
         <p id="texto1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa laboriosam repellat, magnam ea accusamus pariatur nam aliquam vel cum quisquam assumenda non minima eveniet consequatur libero rem dolores consectetur quam.</p>
         <p id="texto2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi quam omnis quis soluta ducimus eligendi, neque sapiente iste commodi facere ullam molestias velit ut recusandae vitae sequi dolorem veniam!</p>
     </section>
     
-        <hr>
-    
-    <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</li></a>
-            <li><a href="./sitio/proyecto.html">Proyecto</li></a>
-            <li><a href="./sitio/ubicacion.html">Ubicacion</li></a>
-            <li><a href="./sitio/unidades.html">Unidades</li></a>
-            <li><a href="./sitio/contacto.html" target="_blank">Contacto</li></a>
-        </ul>
-    </nav>
+           
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="barranavegacion">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sitio/proyecto.html">Proyecto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sitio/ubicacion.html">Ubicacion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sitio/contacto.html">Contacto</a>
+        <li class="nav-item">
+          <a class="nav-link" href="./sitio/unidades.html">Unidades</a>
+              </li>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <hr>
 
 
