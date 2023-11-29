@@ -17,6 +17,15 @@ section p {
     color: blue;
 }
 
+.imgPrinc {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+/* NO PUEDO HACER QUE ESTA P... IMAGEN TENGA ANCHO AUTOMATICO */
+
+
 .imagenesProyecto {
     border: 2px solid black;
     display: flex;
