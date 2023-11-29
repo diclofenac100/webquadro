@@ -9,7 +9,7 @@ section h1 {
 }
 
 section h2 {
-        color: goldenrod;
+        color: darkgray;
         font-weight: 550;
 }
 
@@ -17,26 +17,28 @@ section p {
     color: blue;
 }
 
-img {
-        width: 100%;
-        height: auto;
+.imagenesProyecto {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    
 }
 
 
-
 #texto1 {
-    display: block;
     font-weight: 700;
-    width: 50%;
+    width: 70%;
     padding: 10px 15px;
+    margin: 50px 50px;
     text-align: center;
 }
 
 #texto2 {
     font-weight: 700;
     display: block;
-    width: 50%;
-    margin: 50px 25%;
+    width: 70%;
+    margin: 50px 50px;
     padding: 10px 15px;
     text-align: center;
 }
