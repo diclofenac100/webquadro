@@ -35,13 +35,12 @@ section p {
   gap: 2px 2px;
 }
 
-
 /* CAMBIO PARA VISTA EN PANTALLAS MENORES A 768PX */
 @media (max-widht: 768px) {
-  {
-  grid-auto-columns: auto;
-  grid-template-rows: auto; 
- }
+   {
+    grid-auto-columns: auto;
+    grid-template-rows: auto;
+  }
 }
 /* FIN CAMBIO PANTALLAS */
 
@@ -83,8 +82,11 @@ nav {
 }
 
 .foot {
-    margin: 50px;
-    text-align: center;
-    color: cornflowerblue;
-    border: 1px black;
+  margin: 50px;
+  text-align: center;
+  color: cornflowerblue;
+  border: 1px black;
+}
+.tituloCabecera {
+  margin-top: 100px;
 }
