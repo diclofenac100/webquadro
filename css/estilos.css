@@ -1,6 +1,8 @@
 body {
   background-image: url(../img/imagenfondoblanco.jpg);
   font-family: "Raleway", sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 section h1 {
   color: dimgray;
@@ -30,16 +32,15 @@ section p {
   flex-flow: wrap;
   justify-content: center;
   width: 100%;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 2px 2px;
 }
 
 /* CAMBIO PARA VISTA EN PANTALLAS MENORES A 768PX */
 @media (max-widht: 768px) {
-   {
-    grid-auto-columns: auto;
-    grid-template-rows: auto;
+  .contenedorGaleria {
+    grid-auto-flow: row;
   }
 }
 /* FIN CAMBIO PANTALLAS */
