@@ -1,93 +1,272 @@
+/* ******************** START CSS RESET ******************** */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ******************** END CSS RESET ******************** */
+
+/* ******************** START FONDO Y FUENTE PARA TODAS LAS PAGINAS ******************** */
 body {
   background-image: url(../img/imagenfondoblanco.jpg);
-  font-family: "Raleway", sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-family: "Barlow", sans-serif;
 }
-section h1 {
-  color: dimgray;
+/* ******************** END FONDO Y FUENTE PARA TODAS LAS PAGINAS ******************** */
+
+.tituloPrincipal {
+  margin-top: 50px;
   font-weight: 700;
+  font-size: 40px;
+  text-shadow: 3px 3px 5px gray;
 }
 
-section h2 {
-  color: darkgray;
-  font-weight: 550;
-}
-
-section p {
-  color: blue;
+.tituloSecundario {
+  font-weight: 500;
+  font-size: 28px;
 }
 
 .imgPrinc {
-  margin: 5px;
+  padding: 5px;
   width: 100%;
   height: auto;
   display: flex;
 }
 
-/* GALERIA PAGINA PROYECTO */
-
-.contenedorGaleria {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2px 2px;
-}
-
-/* CAMBIO PARA VISTA EN PANTALLAS MENORES A 768PX */
-@media (max-widht: 768px) {
-  .contenedorGaleria {
-    grid-auto-flow: row;
-  }
-}
-/* FIN CAMBIO PANTALLAS */
-
-#texto1 {
-  font-weight: 700;
-  width: 70%;
-  padding: 10px 15px;
-  margin: 50px 50px;
-  text-align: center;
-}
-
-#texto2 {
-  font-weight: 700;
-  display: block;
-  width: 70%;
-  margin: 50px 50px;
-  padding: 10px 15px;
-  text-align: center;
-}
-
 nav {
-  color: red;
-  margin: 10px;
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+ul {
   margin: 15px 15px 15px 15px;
-  padding: 10px 10px;
+  padding-left: 25px;
+  list-style-type: circle;
 }
 
-#trabalenguas {
-  display: inline;
-  margin: 50px;
-  font-weight: 700;
-}
-#barranavegacion {
-  position: absolute;
-  top: 10px;
-}
-
-.foot {
-  margin: 50px;
+.textoPortada {
+  font-size: 22px;
   text-align: center;
-  color: cornflowerblue;
-  border: 1px black;
+  margin: 15px auto;
 }
-.tituloCabecera {
-  margin-top: 100px;
+
+.arq {
+  font-size: 34px;
+}
+
+.cajaIndex {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 250px;
+  flex-wrap: wrap;
+}
+
+.ott {
+  display: grid;
+  width: 30%;
+  font-size: 24px;
+  margin: 10px 10px;
+  text-align: justify;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+  .imgAmbientes {
+    width: 25%;
+    margin: 10px auto;
+    align-items: center;
+   }
+
+  .planosUnidades {
+    font-size: 24px;
+    align-items: center;
+   width: 25%;
+   margin: 10px auto;
+  }
+
+div img {
+  width: auto;
+  grid: grid;
+  padding: 5px;
+  grid-auto-flow: row;
+}
+.itemContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.formulario {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+footer {
+  background-color: whitesmoke;
+  margin: 25px auto;
+}
+
+@media (min-width) {
+  .cajaIndex {
+    display: grid;
+
+    columns: 1fr;
+    font-size: 24px;
+    margin: 10px 10px;
+    text-align: justify;
+    border: 1px solid gray;
+    padding: 5px;
+  }
+}
+
+.contenedorGaleria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: max-content;
+  padding: 20px;
+
+}
+
+.imagenProyecto {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 1%;
+}
+@media (min-width: 1140px) {
+  .contenedorGaleria {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  }
+  
+}
+@media (min-width: 768px) {
+  .contenedorGaleria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  padding: 20px;
+  }
 }

@@ -3,103 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unidades - Quadro Juramento</title>
-    <link rel="icon" href="./iconos/ico_edificio.png" />
+    <title>Quadro Juramento | Unidades</title>
+    <meta
+      name="description"
+      content="Quadro Juramento | Unidades y amenities de nuestro proyecto" />
+    <meta
+      name="keywords"
+      content="departamento belgrano estrenar pileta amenities seguridad" />
+    <link rel="icon" href="./img/ico_edificio.png" />
+
+    <!-- ******************** START GOOGLE FONTS ******************** -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <!-- ******************** END GOOGLE FONTS ******************** -->
+
+    <!-- MENU BOOTSTRAP -->
+    <link
       rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/estilos.css" />
   </head>
   <body>
-    <!-- START MENU NAVEGACION -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="barranavegacion">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navegacion</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./proyecto.html">Proyecto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Unidades</a>
-            </li>
-          </ul>
-        </div>
+    <!-- ******************** START MENU NAVEGACION ******************** -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./proyecto.html">Proyecto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Unidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
       </div>
     </nav>
-    <!-- END MENU NAVEGACION -->
+    <!-- ******************** END MENU NAVEGACION ******************** -->
 
-    <section class="tituloCabecera">
-      <h1>Unidades</h1>
+    <section id="titulo" class="tituloCabecera">
+      <h1 class="tituloPrincipal">Amenities y Unidades</h1>
     </section>
 
-    <p>
-      Agrupamos las unidades de acuerdo a la cantidad de ambientes. Cada grupo
-      se abrira en una nueva pestaña
-    </p>
+    <h2 class="tituloSecundario">Detalles para tu comodidad</h2>
+    <p>Un universo de posibilidades. Un marco unico para tus vivencias.</p>
+    <ul>
+      <li>
+        Hall de acceso de gran categoría, en doble altura con revestimientos de
+        mármol y piso de granito
+      </li>
+      <li>Piscina en terraza de gran dimensión y con amplio solarium</li>
+      <li>Parrillas comunitarias confortables</li>
+      <li>Terrazas con soleados decks y jardines</li>
+      <li>Seguridad en cabina con control de acceso 24 hs.</li>
+      <li>Cámaras CCTV con grabación digital en accesos</li>
+      <li>Ascensores amplios de última generación</li>
+      <li>Salón de Usos Múltiples (SUM) equipado</li>
+      <li>Gimnasio completo con equipamiento top de última generación</li>
+      <li>Vestuario</li>
+      <li>Bicicletero</li>
+      <li>Laundry</li>
+      <li>Estacionamiento con más de 50 plazas en subsuelo</li>
+    </ul>
 
-    <a href="./2ambientes.html" target="_blank">
+    <h2>Planos de Unidades</h2>
+    <h3>
+      Aqui podras ver los planos de las distintas unidades del edificio. Hace clic en la imagen de los ambientes que quieras ver y te llevara directamente a los planos de ese grupo
+    </h3>
+
+    <a class="imgAmbientes" href="#2a">
       <img
         src="../img/logo_2amb.jpg"
         alt="Unidades 2 Ambientes"
         width="200"
         height="auto"
-        class="imagen2amb"
-      />
+        class="imgAmb" />
     </a>
-    <a href="./3ambientes.html" target="_blank">
+    <a href="#3a">
       <img
         src="../img/logo_3amb.jpg"
         alt="Unidades 3 Ambientes"
         width="200"
         height="auto"
-        class="imagen3amb"
-      />
+        class="imgAmb" />
     </a>
-    <a href="./4ambientes.html" target="_blank">
+    <a href="#4a">
       <img
         src="../img/logo_4amb.jpg"
         alt="Unidades 4 Ambientes"
         width="200"
         height="auto"
-        class="imagen4amb"
-      />
+        class="imgAmb" />
     </a>
 
-    <hr />
-    <p id="trabalenguas">Porque vez cada lees te esto la más trabas?</p>
-    <hr />
+<div class="planosUnidades">
 
-    <footer class="foot">
+    <div>
+      <h3 id="2a" class="planos2Ambientes">2 ambientes</h3>
+    <img src="../planosunidades/unidades2amb/1.jpg" alt="Plano 2 Ambientes 1" />
+    <img src="../planosunidades/unidades2amb/2.jpg" alt="Plano 2 Ambientes 2" />
+    <img src="../planosunidades/unidades2amb/3.jpg" alt="Plano 2 Ambientes 3" />
+  </div>
+
+  <div>
+    <h3 id="3a" class="planos3Ambientes">3 ambientes</h3>
+    <img src="../planosunidades/unidades3amb/1.jpg" alt="Plano 3 Ambientes 1" />
+    <img src="../planosunidades/unidades3amb/2.jpg" alt="Plano 3 Ambientes 2" />
+    <img src="../planosunidades/unidades3amb/3.jpg" alt="Plano 3 Ambientes 3" />
+  </div>
+    <div>
+      <h3 id="4a" class="planos4Ambientes">4 ambientes</h3>
+    <img src="../planosunidades/unidades4amb/1.jpg" alt="Plano 4 Ambientes 1" />
+    <img src="../planosunidades/unidades4amb/2.jpg" alt="Plano 4 Ambientes 2" />
+    <img src="../planosunidades/unidades4amb/3.jpg" alt="Plano 4 Ambientes 3" />
+  </div>
+
+</div>
+     <!-- ******************** START FOOTER ******************** -->
+     <footer class="foot">
       Es lo que hay - Diseño de cuarta - Copyright 2023 - Asi estamos
+      <a href="#titulo">Subir</a>
     </footer>
+    <!-- ******************** END FOOTER ******************** -->
+
+    <!-- ******************** START SCRIPT BOOTSTRAP ******************** -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <!-- ******************** END SCRIPT BOOTSTRAP ******************** -->
   </body>
 </html>
